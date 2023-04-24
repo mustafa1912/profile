@@ -1,12 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 function Resume() {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>Resume</title>
+            </Helmet>
             <section className='about at-top'>
-                <div id="preloader" class="preloader off">
-                    <div class="black_wall"></div>
-                    <div class="loader"></div>
+                <div id="preloader" className="preloader off">
+                    <div className="black_wall"></div>
+                    <div className="loader"></div>
                 </div>
                 {/*<!-- Page Title Starts --> */}
                 <section
@@ -27,7 +31,7 @@ function Resume() {
                                         <h3 className="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
                                     </div>
                                     <div className="col-12 d-block d-sm-none">
-                                        <img src={'./img/H22C11901.jpg'}
+                                        <img src={'./img/H22C11901.webp'}
                                             className="img-fluid main-img-mobile" title='my picture' alt="my" />
                                     </div>
                                     <div className="col-6">
@@ -218,7 +222,7 @@ function Resume() {
                         </div>
                         {/*<!-- Skills Ends --> */}
                         <hr className="separator mt-1" />
-                        {/*<!-- Experience & Education Starts --> */}
+                        {/*<!-- Experience & Education Starts --> 
                         <div className="row">
                             <div className="col-12">
                                 <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience
@@ -296,7 +300,7 @@ function Resume() {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/*<!-- Experience & Education Ends --> */}
                     </div>
                 </section>

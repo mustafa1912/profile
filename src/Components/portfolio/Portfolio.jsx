@@ -1,13 +1,17 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import { NavLink } from 'react-router-dom'
 
 function Portfolio() {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>portfolio</title>
+            </Helmet>
             <section className="portfolio at-top">
-                <div id="preloader" class="preloader off">
-                    <div class="black_wall"></div>
-                    <div class="loader"></div>
+                <div id="preloader" className="preloader off">
+                    <div className="black_wall"></div>
+                    <div className="loader"></div>
                 </div>
                 {/*<!-- Page Title Starts --> */}
                 <section className="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
@@ -20,12 +24,12 @@ function Portfolio() {
                     <div id="grid-gallery" className="container grid-gallery">
                         {/*<!-- Portfolio Grid Starts --> */}
                         <section className="grid-wrap" >
-                            <ul className="row grid" style={{ position: "relative", height: '685.125px;' }}>
+                            <ul className="row grid" >
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '0px', top: '0px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/dashboed7.png'} title='dashboed' alt='dashboed' />
+                                            <img src={'./img/projects/dashboed7.webp'} title='dashboed' alt='dashboed' />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -36,10 +40,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: ' 351px', top: ' 0px' }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/hcr1.png'} title='HCR' alt="HCR" />
+                                            <img src={'./img/projects/hcr1.webp'} title='HCR' alt="HCR" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -50,10 +54,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '703px', top: '0px' }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/henkleez7.png'} title='henkleez' alt="henkleez" />
+                                            <img src={'./img/projects/henkleez7.webp'} title='henkleez' alt="henkleez" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -64,10 +68,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '0px', top: '235px' }}>
+                                <li className='col-sm-4'>
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/naseq8.png'} title='naseq' alt="naseq" />
+                                            <img src={'./img/projects/naseq8.webp'} title='naseq' alt="naseq" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -78,10 +82,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '351px', top: '235px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/market9.png'} title='market' alt="market" />
+                                            <img src={'./img/projects/market9.webp'} title='market' alt="market" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -92,10 +96,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '703px', top: ' 235px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/thite1.png'} title='thite' alt="thite" />
+                                            <img src={'./img/projects/thite1.webp'} title='thite' alt="thite" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -106,10 +110,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '0px', top: '470px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/cms.png'} title='CMS' alt="CMS" />
+                                            <img src={'./img/projects/cms.webp'} title='CMS' alt="CMS" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -120,10 +124,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '351px', top: '470px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/hcr20.png'} title='HCR' alt="HCR" />
+                                            <img src={'./img/projects/hcr20.webp'} title='HCR' alt="HCR" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -134,10 +138,10 @@ function Portfolio() {
                                 </li>
                                 {/*<!-- Portfolio Item Ends --> */}
                                 {/*<!-- Portfolio Item Starts --> */}
-                                <li style={{ position: 'absolute', left: '703px', top: '470px', }}>
+                                <li className='col-sm-4' >
                                     <figure>
                                         <div className='position-relative'>
-                                            <img src={'./img/projects/dashboed1.png'} title='1' alt="Portolio" />
+                                            <img src={'./img/projects/dashboed1.webp'} title='1' alt="Portolio" />
                                             <span className='top'></span>
                                             <span className='bottom'></span>
                                             <span className='right'></span>
@@ -177,7 +181,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-1.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-1.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -245,13 +249,13 @@ function Portfolio() {
                                             {/*<!-- The slideshow --> */}
                                             <div className="carousel-inner">
                                                 <div className="carousel-item active">
-                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-3.jpg" title='1' alt="slide 1" />
+                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-3.webp" title='1' alt="slide 1" />
                                                 </div>
                                                 <div className="carousel-item">
-                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-2.jpg" title='1' alt="slide 2" />
+                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-2.webp" title='1' alt="slide 2" />
                                                 </div>
                                                 <div className="carousel-item">
-                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-1.jpg" title='1' alt="slide 3" />
+                                                    <img src="./Portfolio - Tunis Personal Portfolio_files/project-1.webp" title='1' alt="slide 3" />
                                                 </div>
                                             </div>
                                         </div>
@@ -282,7 +286,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <video id="video" className="responsive-video" controls="" poster="img/projects/project-1.jpg">
+                                        <video id="video" className="responsive-video" controls="" poster="img/projects/project-1.webp">
                                             <source src="img/projects/video.mp4" type="video/mp4" />
                                         </video>
                                         {/*<!-- Main Project Content Ends --> */}
@@ -312,7 +316,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-5.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-5.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -340,7 +344,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-6.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-6.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -368,7 +372,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-7.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-7.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -396,7 +400,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-8.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-8.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -424,7 +428,7 @@ function Portfolio() {
                                         </figcaption>
                                         {/*<!-- Project Details Ends --> */}
                                         {/*<!-- Main Project Content Starts --> */}
-                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-9.jpg" title='1' alt="Portolio" />
+                                        <img src="./Portfolio - Tunis Personal Portfolio_files/project-9.webp" title='1' alt="Portolio" />
                                         {/*<!-- Main Project Content Ends --> */}
                                     </figure>
                                 </li>
@@ -432,9 +436,9 @@ function Portfolio() {
                             </ul>
                             {/*<!-- Portfolio Navigation Starts --> */}
                             <nav>
-                                <span className="icon nav-prev"><img src="./Portfolio - Tunis Personal Portfolio_files/left-arrow.png" title='1' alt="previous" /></span>
-                                <span className="icon nav-next"><img src="./Portfolio - Tunis Personal Portfolio_files/right-arrow.png" title='1' alt="next" /></span>
-                                <span className="nav-close"><img src="./Portfolio - Tunis Personal Portfolio_files/close-button.png" title='1' alt="close" /> </span>
+                                <span className="icon nav-prev"><img src="./Portfolio - Tunis Personal Portfolio_files/left-arrow.webp" title='1' alt="previous" /></span>
+                                <span className="icon nav-next"><img src="./Portfolio - Tunis Personal Portfolio_files/right-arrow.webp" title='1' alt="next" /></span>
+                                <span className="nav-close"><img src="./Portfolio - Tunis Personal Portfolio_files/close-button.webp" title='1' alt="close" /> </span>
                             </nav>
                             {/*<!-- Portfolio Navigation Ends --> */}
                         </section>

@@ -3,7 +3,6 @@ import { NavLink, useLocation } from 'react-router-dom'
 
 function Header() {
     const Location = useLocation()
-    console.log(Location)
     return (
         <React.Fragment>
             {/*<!-- Header Starts --> */}
@@ -35,12 +34,12 @@ function Header() {
                             <h2>Contact</h2>
                         </NavLink>
                     </li>
-                    <li className={`icon-box  ` + (Location.pathname === '/blog' ? 'active' : '')}>
+                    {/* <li className={`icon-box  ` + (Location.pathname === '/blog' ? 'active' : '')}>
                         <i className="fa fa-comments"></i>
                         <NavLink to="blog">
                             <h2>Blog</h2>
                         </NavLink>
-                    </li>
+                    </li>*/}
                 </ul>
                 {/*<!-- Fixed Navigation Ends --> */}
                 {/*<!-- Mobile Menu Starts --> */}
@@ -68,10 +67,10 @@ function Header() {
                                     <i className="fa fa-envelope-open"></i>
                                     <span>Contact</span></NavLink>
                             </li>
-                            <li className={(Location.pathname === '/blog' ? 'active' : '')}>
+                            {/* <li className={(Location.pathname === '/blog' ? 'active' : '')}>
                                 <NavLink to="blog"><i
                                     className="fa fa-comments"></i><span>Blog</span></NavLink>
-                            </li>
+                            </li>*/}
                         </ul>
                     </div>
                 </nav>

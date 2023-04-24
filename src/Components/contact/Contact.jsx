@@ -1,13 +1,17 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import { NavLink } from 'react-router-dom'
 
 function Contact() {
     return (
-        <div>
+        <React.Fragment>
+            <Helmet>
+                <title>Contact</title>
+            </Helmet>
             <section className="contact at-top">
-            <div id="preloader" class="preloader off">
-                    <div class="black_wall"></div>
-                    <div class="loader"></div>
+                <div id="preloader" className="preloader off">
+                    <div className="black_wall"></div>
+                    <div className="loader"></div>
                 </div>
                 {/* <!-- Page Title Starts -->*/}
                 <section className="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
@@ -75,7 +79,7 @@ function Contact() {
 
                 </section>
             </section>
-        </div>
+        </React.Fragment>
     )
 }
 

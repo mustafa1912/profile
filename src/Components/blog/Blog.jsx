@@ -1,13 +1,17 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import { NavLink } from 'react-router-dom'
 
 function Blog() {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>blog</title>
+            </Helmet>
             <section className="blog at-top">
-                <div id="preloader" class="preloader off">
-                    <div class="black_wall"></div>
-                    <div class="loader"></div>
+                <div id="preloader" className="preloader off">
+                    <div className="black_wall"></div>
+                    <div className="loader"></div>
                 </div>
                 {/*<!-- Page Title Starts -->*/}
                 <section className="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
@@ -25,7 +29,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="Blog Post" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="Blog Post" />
                                         </a>
                                     </div>
                                     <div className="post-content">
@@ -45,7 +49,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="" />
                                         </a>
                                     </div>
                                     <div className="post-content">
@@ -65,7 +69,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="" />
                                         </a>
                                     </div>
                                     <div className="post-content">
@@ -85,7 +89,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="" />
                                         </a>
                                     </div>
                                     <div className="post-content">
@@ -105,7 +109,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="" />
                                         </a>
                                     </div>
                                     <div className="post-content">
@@ -125,7 +129,7 @@ function Blog() {
                                 <article className="post-container">
                                     <div className="post-thumb">
                                         <a href="https://slimhamdi.net/tunis/dark/blog-post.html" className="d-block position-relative overflow-hidden">
-                                            <img src={'./img/projects/dashboed1.png'} className="img-fluid" alt="" />
+                                            <img src={'./img/projects/dashboed1.webp'} className="img-fluid" alt="" />
                                         </a>
                                     </div>
                                     <div className="post-content">
