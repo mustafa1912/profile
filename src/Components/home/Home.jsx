@@ -29,7 +29,7 @@ function Home() {
                                 <p className="open-sans-font">
                                     I am a web designer and front-end developer based in Egypt, with a focus on creating clean and user-friendly experiences. My passion lies in developing exceptional software that enhances the lives of those in my community. By staying current with the latest design trends and technologies, I am able to create accessible and intuitive websites that solve real-world problems.
                                 </p>
-                                <NavLink className="button" to="about">
+                                <NavLink className="button" to="resume">
                                     <span className="button-text">Read more  </span>
                                     <span className="button-icon fa fa-arrow-right"></span>
                                 </NavLink>

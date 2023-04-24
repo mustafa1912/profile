@@ -857,7 +857,7 @@ body.light hr.separator {
   padding: 15px;
 }
 
-.portfolio .grid figure {
+.portfolio figure {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 5px;
@@ -866,17 +866,17 @@ body.light hr.separator {
   overflow: hidden;
 }
 
-.portfolio .grid figure img {
+.portfolio figure img {
   display: block;
   position: relative;
 }
 .position-relative {
   position: relative;
 }
-.portfolio .grid figure img:hover {
+.portfolio figure img:hover {
   opacity: 0.7;
 }
-.portfolio .grid figure .position-relative .top {
+.portfolio figure .position-relative .top {
   position: absolute;
   height: 2px;
   width: 0%;
@@ -886,14 +886,14 @@ body.light hr.separator {
   transition: 0.8s ease;
 }
 
-.portfolio .grid figure .position-relative:hover .top {
+.portfolio figure .position-relative:hover .top {
   width: 100%;
 }
 .portfolio .grid li a {
   overflow: hidden;
 }
 
-.portfolio .grid figure .position-relative .left {
+.portfolio figure .position-relative .left {
   position: absolute;
   height: 0%;
   width: 2px;
@@ -902,10 +902,10 @@ body.light hr.separator {
   left: 0;
   transition: 0.8s ease;
 }
-.portfolio .grid figure .position-relative:hover .left {
+.portfolio figure .position-relative:hover .left {
   height: 100%;
 }
-.portfolio .grid figure .position-relative .bottom {
+.portfolio figure .position-relative .bottom {
   position: absolute;
   height: 2px;
   width: 0px;
@@ -914,10 +914,10 @@ body.light hr.separator {
   right: 0;
   transition: 0.8s ease;
 }
-.portfolio .grid figure .position-relative:hover .bottom {
+.portfolio figure .position-relative:hover .bottom {
   width: 100%;
 }
-.portfolio .grid figure .position-relative .right {
+.portfolio figure .position-relative .right {
   position: absolute;
   height: 0px;
   width: 2px;
@@ -926,7 +926,7 @@ body.light hr.separator {
   right: 0;
   transition: 0.8s ease;
 }
-.portfolio .grid figure .position-relative:hover .right {
+.portfolio figure .position-relative:hover .right {
   height: 100%;
 }
 .about .box-stats h3 {
@@ -958,7 +958,19 @@ body.light hr.separator {
   color: #fff;
   font-size: 18px;
 }
+.Project-title {
+  color: #fff;
+  font-weight: 600;
 
+}
+.portfolio figure .position-relative:hover a{
+  text-decoration: none;
+  text-transform: none;
+}
+.portfolio figure .position-relative:hover .Project-title{
+  background: #fff;
+  color: #ffb400;
+}
 /* Slideshow */
 
 .portfolio .slideshow {
@@ -1885,6 +1897,26 @@ body.light hr.separator {
     margin-top: 35px !important;
   }
 }
-.about .resume-box .icon, .blog .page-item.active .page-link, .blog .page-link:hover, .btn, .button-icon, .button:before, .contact ul.social li a:hover, .header .icon-box h2, .header ul.icon-menu li.icon-box.active, .header ul.icon-menu li.icon-box:hover, .home .color-block, .home .home-details h1:before, .portfolio .grid li figure div, .portfolio .slideshow .carousel-indicators li.active, .preloader .loader, .title-section hr, body.light .header ul.icon-menu li.icon-box.active, body.light .header ul.icon-menu li.icon-box:hover, body.light.blog .page-item.active .page-link, body.light.blog .page-link:hover, body.light.contact ul.social li a:hover {
+.about .resume-box .icon,
+.blog .page-item.active .page-link,
+.blog .page-link:hover,
+.btn,
+.button-icon,
+.button:before,
+.contact ul.social li a:hover,
+.header .icon-box h2,
+.header ul.icon-menu li.icon-box.active,
+.header ul.icon-menu li.icon-box:hover,
+.home .color-block,
+.home .home-details h1:before,
+.portfolio .grid li figure div,
+.portfolio .slideshow .carousel-indicators li.active,
+.preloader .loader,
+.title-section hr,
+body.light .header ul.icon-menu li.icon-box.active,
+body.light .header ul.icon-menu li.icon-box:hover,
+body.light.blog .page-item.active .page-link,
+body.light.blog .page-link:hover,
+body.light.contact ul.social li a:hover {
   background-color: #ffb400;
 }
