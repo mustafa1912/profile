@@ -9,7 +9,8 @@ function Home() {
     return (
         <React.Fragment>
             <Helmet>
-                <title>{translation('title')}</title>
+                {/*<title>{translation('title')}</title>*/}
+                <title>home</title>
             </Helmet>
             <section className="home at-top">
                 <div id="preloader" className="preloader off">
@@ -26,7 +27,7 @@ function Home() {
                                 <img src={'./img/H22C1261.jpg'} className="img-fluid main-img-mobile d-none d-sm-block d-lg-none" title='' alt="my" />
                                 <h1 className="text-uppercase poppins-font">I'm mostafa wahba.<span>web designer</span></h1>
                                 <p className="open-sans-font">
-                                I am a web designer and front-end developer based in Egypt, with a focus on creating clean and user-friendly experiences. My passion lies in developing exceptional software that enhances the lives of those in my community. By staying current with the latest design trends and technologies, I am able to create accessible and intuitive websites that solve real-world problems.
+                                    I am a web designer and front-end developer based in Egypt, with a focus on creating clean and user-friendly experiences. My passion lies in developing exceptional software that enhances the lives of those in my community. By staying current with the latest design trends and technologies, I am able to create accessible and intuitive websites that solve real-world problems.
                                 </p>
                                 <NavLink className="button" to="about">
                                     <span className="button-text">Read more  </span>

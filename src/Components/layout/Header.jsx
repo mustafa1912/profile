@@ -16,10 +16,10 @@ function Header() {
                             <h2>Home</h2>
                         </NavLink>
                     </li>
-                    <li className={`icon-box  ` + (Location.pathname === '/about' ? 'active' : '')}>
+                    <li className={`icon-box  ` + (Location.pathname === '/resume' ? 'active' : '')}>
                         <i className="fa fa-user"></i>
-                        <NavLink to="about">
-                            <h2>About</h2>
+                        <NavLink to="resume">
+                            <h2>Resume</h2>
                         </NavLink>
                     </li>
                     <li className={`icon-box  ` + (Location.pathname === '/portfolio' ? 'active' : '')}>
@@ -54,9 +54,9 @@ function Header() {
                                 <NavLink to="">
                                     <i className="fa fa-home"></i><span>Home</span></NavLink>
                             </li>
-                            <li className={(Location.pathname === '/about' ? 'active' : '')}>
-                                <NavLink to="about">
-                                    <i className="fa fa-user"></i><span>About</span></NavLink>
+                            <li className={(Location.pathname === '/resume' ? 'active' : '')}>
+                                <NavLink to="resume">
+                                    <i className="fa fa-user"></i><span>Resume</span></NavLink>
                             </li>
                             <li className={(Location.pathname === '/portfolio' ? 'active' : '')}>
                                 <NavLink to="portfolio">

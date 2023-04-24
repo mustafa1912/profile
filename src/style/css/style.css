@@ -1601,7 +1601,7 @@ body.light hr.separator {
   }
 
   .portfolio .grid li figure div {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .portfolio .slideshow {
@@ -1884,4 +1884,7 @@ body.light hr.separator {
   .separator.mt-1 {
     margin-top: 35px !important;
   }
+}
+.about .resume-box .icon, .blog .page-item.active .page-link, .blog .page-link:hover, .btn, .button-icon, .button:before, .contact ul.social li a:hover, .header .icon-box h2, .header ul.icon-menu li.icon-box.active, .header ul.icon-menu li.icon-box:hover, .home .color-block, .home .home-details h1:before, .portfolio .grid li figure div, .portfolio .slideshow .carousel-indicators li.active, .preloader .loader, .title-section hr, body.light .header ul.icon-menu li.icon-box.active, body.light .header ul.icon-menu li.icon-box:hover, body.light.blog .page-item.active .page-link, body.light.blog .page-link:hover, body.light.contact ul.social li a:hover {
+  background-color: #ffb400;
 }
