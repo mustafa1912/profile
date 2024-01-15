@@ -1,16 +1,13 @@
 import React from 'react'
-import { Helmet } from 'react-helmet-async'
+import { NavLink } from 'react-router-dom'
 
 function Resume() {
     return (
         <React.Fragment>
-            <Helmet>
-                <title>Resume</title>
-            </Helmet>
             <section className='about at-top'>
-                <div id="preloader" className="preloader off">
-                    <div className="black_wall"></div>
-                    <div className="loader"></div>
+                <div id="preloader" class="preloader off">
+                    <div class="black_wall"></div>
+                    <div class="loader"></div>
                 </div>
                 {/*<!-- Page Title Starts --> */}
                 <section
@@ -31,7 +28,7 @@ function Resume() {
                                         <h3 className="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
                                     </div>
                                     <div className="col-12 d-block d-sm-none">
-                                        <img src={'./img/H22C11901.webp'}
+                                        <img src={'./img/H22C11901.jpg'}
                                             className="img-fluid main-img-mobile" title='my picture' alt="my" />
                                     </div>
                                     <div className="col-6">
@@ -43,7 +40,7 @@ function Resume() {
                                                 className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Wahba afifa</span>
                                             </li>
                                             <li> <span className="title">Age :</span> <span
-                                                className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">23
+                                                className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">24
                                                 Years</span> </li>
                                             <li> <span className="title">Nationality :</span> <span
                                                 className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Egypt</span>
@@ -64,9 +61,8 @@ function Resume() {
                                             <li> <span className="title">Email :</span> <span
                                                 className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">mostafw338@fmail.com</span>
                                             </li>
-                                            <li> <span className="title">Skype :</span> <span
-                                                className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">steve.milner</span>
-                                            </li>
+                                            <li> <span className="title">langages :</span> <span
+                                                className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"> arabic</span> </li>
                                             <li> <span className="title">langages :</span> <span
                                                 className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block"> English</span> </li>
                                         </ul>
@@ -96,7 +92,7 @@ function Resume() {
                                     </div>
                                     <div className="col-6">
                                         <div className="box-stats with-margin">
-                                            <h3 className="poppins-font position-relative">10</h3>
+                                            <h3 className="poppins-font position-relative">20</h3>
                                             <p className="open-sans-font m-0 position-relative text-uppercase">completed <span
                                                 className="d-block">projects</span></p>
                                             <span className='top'></span>
@@ -107,7 +103,7 @@ function Resume() {
                                     </div>
                                     <div className="col-6">
                                         <div className="box-stats with-margin m-0">
-                                            <h3 className="poppins-font position-relative">12</h3>
+                                            <h3 className="poppins-font position-relative">20</h3>
                                             <p className="open-sans-font m-0 position-relative text-uppercase">Happy<span
                                                 className="d-block">customers</span></p>
                                             <span className='top'></span>
@@ -187,6 +183,16 @@ function Resume() {
                                         <div className="fill"></div>
                                     </div>
                                 </div>
+                                <h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">taliwan</h6>
+                            </div>
+                            <div className="col-6 col-md-3 mb-3 mb-sm-5">
+                                <div className="c100 p60">
+                                    <span>60%</span>
+                                    <div className="slice">
+                                        <div className="bar"></div>
+                                        <div className="fill"></div>
+                                    </div>
+                                </div>
                                 <h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">scss</h6>
                             </div>
                             <div className="col-6 col-md-3 mb-3 mb-sm-5">
@@ -210,8 +216,8 @@ function Resume() {
                                 <h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">wordpress</h6>
                             </div>
                             <div className="col-6 col-md-3 mb-3 mb-sm-5">
-                                <div className="c100 p65">
-                                    <span>65%</span>
+                                <div className="c100 p90">
+                                    <span>90%</span>
                                     <div className="slice">
                                         <div className="bar"></div>
                                         <div className="fill"></div>
@@ -222,7 +228,7 @@ function Resume() {
                         </div>
                         {/*<!-- Skills Ends --> */}
                         <hr className="separator mt-1" />
-                        {/*<!-- Experience & Education Starts --> 
+                        {/*<!-- Experience & Education Starts --> */}
                         <div className="row">
                             <div className="col-12">
                                 <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience
@@ -235,11 +241,16 @@ function Resume() {
                                             <div className="icon">
                                                 <i className="fa fa-briefcase"></i>
                                             </div>
-                                            <span className="time open-sans-font text-uppercase">2018 - Present</span>
-                                            <h5 className="poppins-font text-uppercase">Web Developer <span
-                                                className="place open-sans-font">Envato</span></h5>
-                                            <p className="open-sans-font">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
-                                                labore adipisicing elit, </p>
+                                            <span className="time open-sans-font text-uppercase">2021 - August</span>
+                                            <h5 className="poppins-font text-uppercase">Web Development Challenger <span
+                                                className="place open-sans-font">udacity</span></h5>
+                                            <p className="open-sans-font">learn HTML , css , Wordpress and freelance work</p>
+                                            <div className='text-right'>
+                                                <NavLink to='https://graduation.udacity.com/confirm/L9ALUSQC' className="button mt-3" >
+                                                    <span className="button-text">  certificate </span>
+                                                    <span className="button-icon fa fa-download"></span>
+                                                </NavLink>
+                                            </div>
                                         </li>
                                         <li>
                                             <div className="icon">
@@ -250,6 +261,12 @@ function Resume() {
                                                 className="place open-sans-font">Themeforest</span></h5>
                                             <p className="open-sans-font">Lorem incididunt dolor sit amet, consectetur eiusmod dunt
                                                 doldunt dol elit, tempor incididunt</p>
+                                            <div className='text-right'>
+                                                <NavLink to='https://graduation.udacity.com/confirm/L9ALUSQC' className="button mt-3" >
+                                                    <span className="button-text">  certificate </span>
+                                                    <span className="button-icon fa fa-download"></span>
+                                                </NavLink>
+                                            </div>
                                         </li>
                                         <li>
                                             <div className="icon">
@@ -300,7 +317,7 @@ function Resume() {
                                     </ul>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         {/*<!-- Experience & Education Ends --> */}
                     </div>
                 </section>
