@@ -168,9 +168,9 @@ function Portfolio() {
                             <ul className="row" >
                                 {/*<!-- Portfolio Item Starts --> */}
                                 {Projects.map((Element, index) => (
-                                    <li className='col-sm-4' key={index}>
+                                    <li className='col-sm-4 mb-2' key={index}>
                                         <figure>
-                                            <div className='position-relative mb-3'>
+                                            <div className='position-relative mb-2'>
                                                 <a data-fancybox={Element.title}
                                                     data-caption={Element.title}
                                                     href={Element.href}>
@@ -181,12 +181,12 @@ function Portfolio() {
                                                         <span className='right'></span>
                                                         <span className='left'></span>
                                                     </div>
-                                                    <div className='Project-title mb-2 pt-2 pb-2'><span>{Element.title}</span></div>
-                                                    <div className='text-center'>
-                                                        <NavLink to={Element.url} className="button mb-2 rounded-lg w-100" >
-                                                            <span className="button-text rounded">  visite site </span>
-                                                        </NavLink>
-                                                    </div>
+                                                    <div className='Project-title pt-2 pb-1'><span>{Element.title}</span></div>
+                                                </a>
+                                            </div>
+                                            <div className='text-center'>
+                                                <a href={Element.url} target='_blank' rel="noopener noreferrer" className="button mb-2 rounded-lg w-100" >
+                                                    <span className="button-text rounded">  visite site </span>
                                                 </a>
                                             </div>
                                         </figure>

@@ -240,31 +240,63 @@ function Resume() {
                                         <div className="icon">
                                             <i className="fa fa-briefcase"></i>
                                         </div>
-                                        <span className="time open-sans-font text-uppercase">2021 - August</span>
+                                        <span className="time open-sans-font text-uppercase">2021 - September </span>
                                         <h5 className="poppins-font text-uppercase">Web Development Challenger <span
                                             className="place open-sans-font">udacity</span></h5>
-                                        <p className="open-sans-font">learn HTML , css , Wordpress and freelance work</p>
+                                        <p className="open-sans-font"> Learn HTML, CSS and Wordpress. You will be able to start translating ideas into compelling websites.
+                                        </p>
                                         <div className='text-right'>
-                                            <NavLink to='https://graduation.udacity.com/confirm/L9ALUSQC' className="button mt-3" >
+                                            <a href='https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/a5f21015-c617-4145-8bba-607be81aff78.pdf' target='_blank'  rel="noopener noreferrer" className="button mt-3" >
                                                 <span className="button-text">  certificate </span>
                                                 <span className="button-icon fas fa-images"></span>
-                                            </NavLink>
+                                            </a>
                                         </div>
                                     </li>
                                     <li className='col-12 col-md-6'>
                                         <div className="icon">
                                             <i className="fa fa-briefcase"></i>
                                         </div>
-                                        <span className="time open-sans-font text-uppercase">2013 - 2018</span>
-                                        <h5 className="poppins-font text-uppercase">UI/UX Designer <span
-                                            className="place open-sans-font">Themeforest</span></h5>
-                                        <p className="open-sans-font">Lorem incididunt dolor sit amet, consectetur eiusmod dunt
-                                            doldunt dol elit, tempor incididunt</p>
+                                        <span className="time open-sans-font text-uppercase">2021 - November  </span>
+                                        <h5 className="poppins-font text-uppercase">Front End Web Development Professional
+                                            <span
+                                                className="place open-sans-font">udacity</span></h5>
+                                        <p className="open-sans-font">Learn JavaScript basics from the very beginning. You will increase your knowledge in Front End Web Development gradually and you will create some interesting projects by the end of this program.
+                                        </p>
                                         <div className='text-right'>
-                                            <NavLink to='https://graduation.udacity.com/confirm/L9ALUSQC' className="button mt-3" >
+                                            <a href='https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/6729f924-b318-400b-9f2e-68e241e82ced.pdf' target='_blank'  rel="noopener noreferrer" className="button mt-3" >
                                                 <span className="button-text">  certificate </span>
                                                 <span className="button-icon fas fa-images"></span>
-                                            </NavLink>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li className='col-12 col-md-6'>
+                                        <div className="icon">
+                                            <i className="fa fa-briefcase"></i>
+                                        </div>
+                                        <span className="time open-sans-font text-uppercase">2022 - march  </span>
+                                        <h5 className="poppins-font text-uppercase">JavaScript language <span
+                                            className="place open-sans-font">maharatech</span></h5>
+                                        <p className="open-sans-font">The JavaScript Course by maharatech is a comprehensive program designed to teach the essential concepts of JavaScript, the most popular programming language for web development. This course takes students from the basics of JavaScript to more advanced topics, enabling them to create dynamic, interactive websites and applications.</p>
+                                        <div className='text-right'>
+                                            <a href='https://maharatech.gov.eg/mod/customcert/view.php?id=7660&downloadown=1' target='_blank'  rel="noopener noreferrer" className="button mt-3" >
+                                                <span className="button-text">  certificate </span>
+                                                <span className="button-icon fas fa-images"></span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li className='col-12 col-md-6'>
+                                        <div className="icon">
+                                            <i className="fa fa-briefcase"></i>
+                                        </div>
+                                        <span className="time open-sans-font text-uppercase">2022 - may  </span>
+                                        <h5 className="poppins-font text-uppercase"> React js <span
+                                            className="place open-sans-font">maharatech</span></h5>
+                                        <p className="open-sans-font">The React JS Course by maharatech is designed to teach developers how to build fast, scalable, and modern web applications using React, one of the most powerful JavaScript libraries. This course provides a deep dive into the fundamentals of React and covers everything you need to create dynamic user interfaces and single-page applications (SPAs).</p>
+                                        <div className='text-right'>
+                                            <a href='https://maharatech.gov.eg/mod/customcert/view.php?id=7660&downloadown=1' target='_blank'  rel="noopener noreferrer" className="button mt-3" >
+                                                <span className="button-text">  certificate </span>
+                                                <span className="button-icon fas fa-images"></span>
+                                            </a>
                                         </div>
                                     </li>
                                 </ul>

@@ -25,12 +25,12 @@ function Home() {
                         <div className="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
                             <div>
                                 <img src={'./img/H22C1261.jpg'} className="img-fluid main-img-mobile d-none d-sm-block d-lg-none" title='' alt="my" />
-                                <h1 className="text-uppercase poppins-font">I'm mostafa wahba.<span>web designer</span></h1>
+                                <h1 className="text-uppercase poppins-font">I'm mostafa wahba.<span>Front-End Developer</span></h1>
                                 <p className="open-sans-font">
-                                    I am a web designer and front-end developer based in Egypt, with a focus on creating clean and user-friendly experiences. My passion lies in developing exceptional software that enhances the lives of those in my community. By staying current with the latest design trends and technologies, I am able to create accessible and intuitive websites that solve real-world problems.
+                                    I am a skilled front-end developer with extensive experience in creating dynamic, user-friendly web applications. My expertise spans across HTML, CSS, JavaScript, React, and Bootstrap, allowing me to build responsive, visually appealing websites that deliver seamless user experiences. I also specialize in WordPress development and have strong knowledge of Git, SCSS, Tailwind, and SEO optimization.
                                 </p>
                                 <NavLink className="button" to="resume">
-                                    <span className="button-text">Read more  </span>
+                                    <span className="button-text">Read more</span>
                                     <span className="button-icon fa fa-arrow-right"></span>
                                 </NavLink>
                             </div>
