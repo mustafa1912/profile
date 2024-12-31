@@ -6,7 +6,7 @@ function Contact() {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Contact</title>
+                <title>Contact | Mostafa Wahba</title>
             </Helmet>
             <section className="contact at-top">
                 <div id="preloader" className="preloader off">

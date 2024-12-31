@@ -10,7 +10,7 @@ function Home() {
         <React.Fragment>
             <Helmet>
                 {/*<title>{translation('title')}</title>*/}
-                <title>home</title>
+                <title>Home</title>
             </Helmet>
             <section className="home at-top">
                 <div id="preloader" className="preloader off">

@@ -5,6 +5,10 @@ import "@fancyapps/fancybox/dist/jquery.fancybox.min.css";
 import "@fancyapps/fancybox/dist/jquery.fancybox.min.js";
 
 function Portfolio() {
+    <Helmet>
+        <title>Portfolio | Mostafa Wahba</title>
+    </Helmet>
+
     const projectCategories = {
         Projects: [
             { href: './img/iss1.png', title: 'Iss', url: 'https://issgroups.com/', date: ' Dec 2024  ' },
