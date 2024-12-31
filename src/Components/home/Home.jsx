@@ -24,7 +24,7 @@ function Home() {
                         <div className="col-lg-4 bg position-fixed d-none d-lg-block"></div>
                         <div className="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
                             <div>
-                                <img src={'./img/H22C1261.jpg'} className="img-fluid main-img-mobile d-none d-sm-block d-lg-none" title='' alt="my" />
+                                <img src={'./img/me/H22C1262.webp'} className="img-fluid main-img-mobile d-none d-sm-block d-lg-none" title='' alt="my" />
                                 <h1 className="text-uppercase poppins-font">I'm mostafa wahba.<span>Front-End Developer</span></h1>
                                 <p className="open-sans-font">
                                     I am a skilled front-end developer with extensive experience in creating dynamic, user-friendly web applications. My expertise spans across HTML, CSS, JavaScript, React, and Bootstrap, allowing me to build responsive, visually appealing websites that deliver seamless user experiences. I also specialize in WordPress development and have strong knowledge of Git, SCSS, Tailwind, and SEO optimization.
